@@ -57,6 +57,9 @@ if labyrinth_path:
         thing = True
         print("You are teleported into a dark, blue tinted labyrinth, with huge hedges covering each side of the path")
         print("to access equipment type in 'equipment'")
-        coin_flip = random in one_or_two
+        coin_flip = random.choice(one_or_two)
         print(coin_flip)
         start_lab = False
+
+if dungeon_path:
+    print('d')
